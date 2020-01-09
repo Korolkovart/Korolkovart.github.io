@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+                <!--mobile header-->
+            <div class="top-header-mobile">
+                <a href="index.html" class="logo">
+                    <svg class="logo-item" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="64" height="56">
+                        <path
+                            d="M52.873,55.128 L58.125,45.939 L63.377,55.128 L52.873,55.128 ZM46.303,45.172 L56.811,45.172 L51.557,54.359 L46.303,45.172 ZM51.557,34.451 L56.811,43.641 L46.303,43.641 L51.557,34.451 ZM39.738,33.686 L50.243,33.686 L44.990,42.874 L39.738,33.686 ZM44.990,22.967 L50.243,32.154 L39.738,32.154 L44.990,22.967 ZM33.168,22.202 L43.676,22.202 L38.422,31.390 L33.168,22.202 ZM38.422,11.480 L43.676,20.671 L33.168,20.671 L38.422,11.480 ZM26.600,10.713 L37.108,10.713 L31.854,19.905 L26.600,10.713 ZM31.854,-0.006 L37.108,9.184 L26.600,9.184 L31.854,-0.006 ZM20.032,20.671 L25.286,11.480 L30.540,20.671 L20.032,20.671 ZM13.465,32.154 L18.718,22.967 L23.971,32.154 L13.465,32.154 ZM6.897,43.641 L12.151,34.451 L17.404,43.641 L6.897,43.641 ZM0.331,55.128 L5.582,45.939 L10.836,55.128 L0.331,55.128 ZM17.404,45.172 L12.151,54.359 L6.897,45.172 L17.404,45.172 ZM23.971,33.686 L18.718,42.874 L13.465,33.686 L23.971,33.686 ZM30.540,22.202 L25.286,31.390 L20.032,22.202 L30.540,22.202 ZM37.108,55.128 L26.600,55.128 L31.854,45.939 L37.108,55.128 ZM43.676,45.172 L38.422,54.359 L33.168,45.172 L43.676,45.172 ZM50.243,55.128 L39.738,55.128 L44.990,45.939 L50.243,55.128 Z" />
+                    </svg>
+                    <span class="logo-text">Waxom</span>
+                </a>
+                <nav>
+                    <label class="label-btn" for="mobile-menu">
+                        <span class="burger"></span>
+                    </label>
+
+                    <!--<button class="label-btn" for="mobile-menu"> 
+                        <span class="burger"></span>
+                    </button>-->
+                    <input id="mobile-menu" type="checkbox">
+                    <ul class="mobile-menu-list">
+                        <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">Home</a></li>
+                        <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">About Us</a></li>
+                        <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">Portfolio</a></li>
+                        <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">Features</a></li>
+                        <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">Blog</a></li>
+                        <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">Pricing</a></li>
+                        <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">Shortcodes</a></li>
+                        <li class="mobile-menu-item"><a class="mobile-menu-link" href="#">Contact</a></li>
+                    </ul>
+            </nav>
+            </div>
+
+
+            <!--Header-->
+            <div class="top-header">
+                <a href="index.html" class="logo">
+                    <svg class="logo-item" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+                        width="64" height="56">
+                        <path
+                            d="M52.873,55.128 L58.125,45.939 L63.377,55.128 L52.873,55.128 ZM46.303,45.172 L56.811,45.172 L51.557,54.359 L46.303,45.172 ZM51.557,34.451 L56.811,43.641 L46.303,43.641 L51.557,34.451 ZM39.738,33.686 L50.243,33.686 L44.990,42.874 L39.738,33.686 ZM44.990,22.967 L50.243,32.154 L39.738,32.154 L44.990,22.967 ZM33.168,22.202 L43.676,22.202 L38.422,31.390 L33.168,22.202 ZM38.422,11.480 L43.676,20.671 L33.168,20.671 L38.422,11.480 ZM26.600,10.713 L37.108,10.713 L31.854,19.905 L26.600,10.713 ZM31.854,-0.006 L37.108,9.184 L26.600,9.184 L31.854,-0.006 ZM20.032,20.671 L25.286,11.480 L30.540,20.671 L20.032,20.671 ZM13.465,32.154 L18.718,22.967 L23.971,32.154 L13.465,32.154 ZM6.897,43.641 L12.151,34.451 L17.404,43.641 L6.897,43.641 ZM0.331,55.128 L5.582,45.939 L10.836,55.128 L0.331,55.128 ZM17.404,45.172 L12.151,54.359 L6.897,45.172 L17.404,45.172 ZM23.971,33.686 L18.718,42.874 L13.465,33.686 L23.971,33.686 ZM30.540,22.202 L25.286,31.390 L20.032,22.202 L30.540,22.202 ZM37.108,55.128 L26.600,55.128 L31.854,45.939 L37.108,55.128 ZM43.676,45.172 L38.422,54.359 L33.168,45.172 L43.676,45.172 ZM50.243,55.128 L39.738,55.128 L44.990,45.939 L50.243,55.128 Z" />
+                    </svg>
+                    <span class="logo-text">Waxom</span>
+                </a>
+                <nav class="top-header-list">
+                    <li><a href="#" class="top-header-link">Home</a></li>
+                    <li><a href="#" class="top-header-link">About Us</a></li>
+                    <li><a href="#" class="top-header-link">Portfolio</a></li>
+                    <li><a href="#" class="top-header-link">Features</a></li>
+                    <li><a href="#" class="top-header-link">Blog</a></li>
+                    <li><a href="#" class="top-header-link">Pricing</a></li>
+                    <li><a href="#" class="top-header-link">Shortcodes</a></li>
+                    <li><a href="#" class="top-header-link">Contact</a></li>
+                </nav>
+                <button class="shop-but">
+                    <svg class="logo-shop" width="18" height="24" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path
+                            d="M17.99426,5.9972v14.99796c0,1.65596 -1.34262,2.99909 -2.99881,2.99909h-11.99364c-1.65596,0 -2.99847,-1.34313 -2.99847,-2.99909v-14.99796c0,-1.65596 1.34251,-2.99868 2.99847,-2.99868h1.49918c0,-1.65679 2.01347,-3.00034 4.49776,-3.00034c2.48428,0 4.49753,1.34355 4.49753,3.00034h1.49918c1.65619,0 2.99881,1.34272 2.99881,2.99868zM6.00027,2.99853h5.99682c0,-1.03612 -1.34205,-1.50017 -2.99835,-1.50017c-1.65607,0 -2.99847,0.46405 -2.99847,1.50017zM16.49496,19.49541h-14.99256v1.49975c0,0.82798 0.6712,1.49892 1.4994,1.49892h11.99364c0.82809,0 1.49952,-0.67094 1.49952,-1.49892zM16.49496,5.9972c0,-0.8284 -0.67097,-1.49975 -1.49952,-1.49975h-1.49918v4.50009h-1.49918v-4.50009h-5.99682v4.50009h-1.49929v-4.50009h-1.49918c-0.82821,0 -1.4994,0.67136 -1.4994,1.49975v11.99803h14.99256z">
+                        </path>
+                    </svg>
+                </button>
+                <form class="form-search" action="#">
+                    <label for="search-header">
+                        <svg class="search-header-logo" xmlns="http://www.w3.org/2000/svg" width="24" height="24">
+                            <path
+                                d="M23.761 23.763a.785.785 0 0 1-1.098 0l-6.217-6.12a10.155 10.155 0 0 1-6.353 2.22C4.52 19.862.001 15.415.001 9.928 0 4.443 4.519-.002 10.093-.002c5.575 0 10.093 4.445 10.094 9.93 0 2.565-.997 4.897-2.618 6.658l6.193 6.095a.758.758 0 0 1 0 1.082zM18.633 9.93c0-4.641-3.823-8.404-8.54-8.404-4.716 0-8.54 3.763-8.54 8.404 0 4.643 3.824 8.405 8.54 8.405 4.717 0 8.54-3.762 8.54-8.405z" />
+                        </svg>
+                    </label>
+                    <input type="search" class="search-header">
+                </form>
+            </div>
+            <section class="header-slider">
+                <a href="#">
+                    <svg class="arrow" width="49" height="73" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path
+                            d="M38.02597,72.97944v0l-38.02116,-36.48142v0l38.02116,-36.47976v0l1.96907,2.00369v0l-35.92907,34.47607v0l35.92907,34.47856v0z">
+                        </path>
+                        <path
+                            d="M38.02597,72.97944v0l-38.02116,-36.48142v0l38.02116,-36.47976v0l1.96907,2.00369v0l-35.92907,34.47607v0l35.92907,34.47856v0z">
+                        </path>
+                    </svg>
+
+                </a>
+                <div class="header-slider-content clearfix">
+                    <span class="content-first-span">Unique and Modern Design</span>
+                    <span class="content-second-span">Portfolio PSD Template</span>
+                    <p class="content-slider-txt">Nam liber tempor cum soluta nobis eleifend option congue nihil
+                        imperdiet doming id quod mazim
+                        placerat facer possim assum.</p>
+                    <button class="content-btn">Get Started</button>
+                </div>
+                <a href="#">
+                    <svg class="arrow" width="40" height="73" xmlns="http://www.w3.org/2000/svg"
+                        xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <path
+                            d="M1.97392,72.97944v0l38.02116,-36.48142v0l-38.02116,-36.47976v0l-1.96907,2.00369v0l35.92907,34.47607v0l-35.92907,34.47856v0z">
+                        </path>
+                    </svg>
+                </a>
+                <div class="header-slider-pagination">
+                    <a href="#" class="header-slider-pagination-type"></a>
+                    <a href="#" class="header-slider-pagination-type"></a>
+                    <a href="#" class="header-slider-pagination-type"></a>
+                    <a href="#" class="header-slider-pagination-type"></a>
+                    <a href="#" class="header-slider-pagination-type"></a>
+                </div>
+            </section>
+
+        </header>
+        <section class="mini-slider1">
+            <div class="mini-slider1-content">
+                <svg class="mini-slider1-content-icon" width="49" height="49" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path
+                        d="M47.66797,19.71721l-14.2662,14.26802l-32.86755,14.47824l14.47666,-32.87204l14.26769,-14.26428c0.61981,-0.6215 1.6254,-0.6215 2.24842,0c0.62119,0.62275 0.62119,1.62771 0,2.24838l-13.84392,13.84676l-8.57643,19.46565l2.99904,2.99868l19.46766,-8.57269l13.84621,-13.84427c0.61981,-0.62234 1.6238,-0.62234 2.24842,0c0.62119,0.62067 0.62119,1.6302 0,2.24755zM27.49524,26.21642l13.33168,-13.33161c0.6229,-0.62441 1.62689,-0.62441 2.24979,0c0.6229,0.62067 0.6229,1.62563 0,2.24922l-13.33157,13.33203c-0.31151,0.30743 -0.71754,0.4653 -1.12507,0.4653c-0.4089,0 -0.81505,-0.15787 -1.12484,-0.4653c-0.61981,-0.62275 -0.61981,-1.62979 0,-2.24963zM24.01509,22.73458l13.33305,-13.33161c0.62164,-0.62275 1.62563,-0.62275 2.24991,0c0.62141,0.62026 0.62141,1.6273 0,2.24963l-13.33317,13.33286c-0.30991,0.30784 -0.71583,0.46447 -1.12495,0.46447c-0.40581,0 -0.81345,-0.15662 -1.12484,-0.46447c-0.62141,-0.62109 -0.62141,-1.63103 0,-2.25088zM20.53414,19.25316l13.33248,-13.33078c0.6229,-0.624 1.62861,-0.624 2.24991,0c0.6229,0.61984 0.6229,1.62522 0,2.25005l-13.3326,13.32995c-0.31071,0.31117 -0.71892,0.46571 -1.12473,0.46571c-0.40615,0 -0.81436,-0.15455 -1.12507,-0.46571c-0.62061,-0.61943 -0.62061,-1.62896 0,-2.24922z">
+                    </path>
+                </svg>
+                <span class="mini-slider1-content-title">Web & App Design</span>
+                <p class="mini-slider1-content-txt">Nam liber tempor cum soluta nobis eleifend option congue nihil
+                    imperdiet doming id quod mazim.</p>
+            </div>
+            <div class="mini-slider1-content">
+                <svg class="mini-slider1-content-icon" width="44" height="40" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path
+                        d="M43.28735,11.66567l-21.43684,11.5614l-21.43696,-11.5614l21.43696,-11.56016zM39.30229,17.54794l3.98506,2.14868l-21.43684,11.55683l-21.43696,-11.55683l3.98518,-2.14868l17.45178,9.40982zM39.30229,25.57308l3.98506,2.14743l-21.43684,11.56265l-21.43696,-11.56265l3.98518,-2.14743l17.45178,9.41148z">
+                    </path>
+                </svg>
+                <span class="mini-slider1-content-title">Development</span>
+                <p class="mini-slider1-content-txt">Lorem ipsum dolor sit amet, adipiscing elit, sed diam nonummy nibh
+                    euismod tincidunt ut laoreet.</p>
+            </div>
+            <div class="mini-slider1-content">
+                <svg class="mini-slider1-content-icon" width="44" height="44" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path
+                        d="M41.32162,25.71072c-1.4399,0.51224 -2.83676,1.76107 -3.24291,2.74235c-0.40524,0.98003 -0.298,2.85078 0.35774,4.23005c0.65598,1.37844 0.25852,3.42659 -0.8868,4.57197c-1.14544,1.14704 -3.1937,1.54421 -4.57294,0.88739c-1.37924,-0.65599 -3.2515,-0.76442 -4.23248,-0.35645c-0.9811,0.41046 -2.22679,1.80801 -2.73914,3.24628c-0.51167,1.43578 -2.24121,2.6011 -3.86135,2.6011c-1.6206,0 -3.34957,-1.16532 -3.86169,-2.6011c-0.51189,-1.43827 -1.75884,-2.83624 -2.74075,-3.24337c-0.98156,-0.40797 -2.85084,-0.30244 -4.23088,0.35354c-1.38016,0.65682 -3.42705,0.25965 -4.57294,-0.88739c-1.14567,-1.14538 -1.54266,-3.19352 -0.88657,-4.57197c0.65632,-1.37886 0.76275,-3.24878 0.35488,-4.22922c-0.40787,-0.97962 -1.80038,-2.23094 -3.23971,-2.74318c-1.43967,-0.51183 -2.60616,-2.24008 -2.60616,-3.86072c0,-1.62023 1.1665,-3.34931 2.60616,-3.85699c1.43932,-0.50975 2.83001,-1.76148 3.23788,-2.74318c0.40752,-0.98336 0.30327,-2.85327 -0.35305,-4.23296c-0.65609,-1.37928 -0.25909,-3.42617 0.88657,-4.57404c1.1459,-1.14621 3.19405,-1.5413 4.57294,-0.88531c1.37924,0.65682 3.24932,0.764 4.23088,0.35728c0.98087,-0.40589 2.22885,-1.80261 2.74075,-3.24171c0.51212,-1.4391 2.2411,-2.60608 3.86169,-2.60608c1.62014,0 3.34969,1.16698 3.86135,2.60608c0.51235,1.4391 1.75987,2.83665 2.74075,3.24171c0.9811,0.40672 2.85164,0.29954 4.23088,-0.35728c1.38016,-0.65599 3.42751,-0.2609 4.57294,0.88531c1.14532,1.14787 1.54278,3.19477 0.8868,4.57404c-0.65575,1.37886 -0.76115,3.2521 -0.35511,4.23379c0.40524,0.9846 1.80038,2.2326 3.24028,2.74235c1.43898,0.50767 2.60548,2.23675 2.60548,3.85699c0,1.62065 -1.1665,3.3489 -2.60548,3.86072zM30.12781,21.85872c0,-4.41867 -3.57342,-7.99357 -7.98409,-7.99357c-4.41971,0 -7.99358,3.5749 -7.99358,7.99357c0,4.4116 3.57388,7.98318 7.99358,7.98318c4.41067,0 7.98409,-3.57158 7.98409,-7.98318z">
+                    </path>
+                </svg>
+                <span class="mini-slider1-content-title">Customization</span>
+                <p class="mini-slider1-content-txt">Nam liber tempor cum soluta nobis eleifend option congue nihil
+                    imperdiet doming id quod mazim.</p>
+            </div>
+            <div class="mini-slider1-content">
+                <svg class="mini-slider1-content-icon" width="52" height="36" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <path
+                        d="M0.73848,30.14747v-22.16437c0,-1.36432 1.10481,-2.48228 2.45716,-2.48062h10.81673v-1.44492c0,-0.99499 0.38177,-1.92268 1.08135,-2.62727c0.69969,-0.7075 1.62334,-1.09553 2.60685,-1.09553h6.29036c2.02858,0 3.68385,1.66676 3.68385,3.7228v1.44325h10.8165c1.3504,0 2.45739,1.11796 2.45739,2.48228v1.65388h-26.20674c-2.26742,0 -4.73969,1.55002 -5.74219,3.60813zM16.46964,5.50247h8.74775v-1.44492c0,-0.68756 -0.55046,-1.24218 -1.22875,-1.24218h-6.29036c-0.32627,0 -0.6356,0.12962 -0.86609,0.36767c-0.23014,0.23431 -0.36255,0.54672 -0.36255,0.87451zM41.9213,33.76266c-0.59498,1.22141 -2.1928,2.22097 -3.54286,2.22097h-35.29816c-1.35006,0 -1.96861,-1.00205 -1.36929,-2.22097l9.49219,-19.42202c0.59303,-1.22307 2.18834,-2.22554 3.53874,-2.22554h35.29781c1.35464,0 1.96884,1.00247 1.37169,2.22554z">
+                    </path>
+                </svg>
+                <span class="mini-slider1-content-title">Marketing</span>
+                <p class="mini-slider1-content-txt">Nam liber tempor cum soluta nobis eleifend option congue nihil
+                    imperdiet doming id quod mazim.</p>
+            </div>
+        </section>
+        <section class="realization">
+            <div class="realization-content">
+                <span class="realization-title">Waxom is Realization of your Ideas.</span>
+                <p class="realization-txt">Investigationes demonstraverunt lectores legere me lius quod ii legunt
+                    saepius. Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+            </div>
+            <img class="realization-img-1" src="../img/browser-left.jpg" alt="browser-left" width="770" height="400">
+            <img class="realization-img-2" src="../img/browser-center.jpg" alt="browser-center" width="770"
+                height="482">
+            <img class="realization-img-3" src="../img/browser-right.jpg" alt="browser-right" width="770" height="400">
+        </section>
+        <aside class="ad">
+            <div class="ad-content">
+                <h2 class="ad-title">
+                    <span>Waxom</span>
+                    Multipurpose WordPress Theme
+                </h2>
+                <p class="ad-txt">Don't Forget to Rate the Template. Thanks so much!</p>
+            </div>
+            <button class="ad-btn">Purchase Now</button>
+        </aside>
+        <section class="projects">
+            <div class="projects-title-txt">
+                <span class="projects-title">Our Latest Projects.</span>
+                <p class="projects-txt">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+                    Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+            </div>
+            <div class="projects-btn-list">
+                <button class="btn-list-inf">All</button>
+                <button class="btn-list-inf">Web Design</button>
+                <button class="btn-list-inf">Mobile App</button>
+                <button class="btn-list-inf">Illustration</button>
+                <button class="btn-list-inf">Photography</button>
+            </div>
+            <div class="projects-items-all">
+                <div class="projects-items">
+                    <img class="projects-items-img" src="img/photo-1.jpg" alt="photo" width="370" height="237">
+                    <div class="projects-items-content">
+                        <span class="projects-items-title">Claritas Etiam Processus</span>
+                        <p class="projects-items-sub-title">Photography, Nature</p>
+                    </div>
+                    <button class="projects-items-share">
+                        <svg class="projects-items-share-item" xmlns="http://www.w3.org/2000/svg" width="30"
+                            height="30">
+                            <path
+                                d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z" />
+                        </svg>
+                    </button>
+                    <button class="projects-items-search">
+                        <svg class="projects-items-share-item" xmlns="http://www.w3.org/2000/svg" width="26"
+                            height="25">
+                            <path
+                                d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="projects-items">
+                    <img class="projects-items-img" src="img/photo-2.jpg" alt="photo" width="370" height="237">
+                    <div class="projects-items-content">
+                        <span class="projects-items-title">Quam Nutamus Farum</span>
+                        <p class="projects-items-sub-title">Graphic Design, Mock-Up</p>
+                    </div>
+                    <button class="projects-items-share">
+                        <svg class="projects-items-share-item" xmlns="http://www.w3.org/2000/svg" width="26"
+                            height="26">
+                            <path
+                                d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z" />
+                        </svg>
+                    </button>
+                    <button class="projects-items-search">
+                        <svg class="projects-items-share-item" xmlns="http://www.w3.org/2000/svg" width="26"
+                            height="25">
+                            <path
+                                d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="projects-items">
+                    <img class="projects-items-img" src="img/photo-3.jpg" alt="photo" width="370" height="237">
+                    <div class="projects-items-content">
+                        <span class="projects-items-title">Quam Nutamus Farum</span>
+                        <p class="projects-items-sub-title">Graphic Design, Mock-Up</p>
+                    </div>
+                    <button class="projects-items-share">
+                        <svg class="projects-items-share-item" xmlns="http://www.w3.org/2000/svg" width="30"
+                            height="30">
+                            <path
+                                d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z" />
+                        </svg>
+                    </button>
+                    <button class="projects-items-search">
+                        <svg class="projects-items-share-item" xmlns="http://www.w3.org/2000/svg" width="35"
+                            height="35">
+                            <path
+                                d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="projects-items">
+                    <img class="projects-items-img" src="img/photo-4.jpg" alt="photo" width="370" height="237">
+                    <div class="projects-items-content">
+                        <span class="projects-items-title">Quam Nutamus Farum</span>
+                        <p class="projects-items-sub-title">Graphic Design, Mock-Up</p>
+                    </div>
+                    <button class="projects-items-share">
+                        <svg class="projects-items-share-item" xmlns="http://www.w3.org/2000/svg" width="26"
+                            height="26">
+                            <path
+                                d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z" />
+                        </svg>
+                    </button>
+                    <button class="projects-items-search">
+                        <svg class="projects-items-share-item" xmlns="http://www.w3.org/2000/svg" width="26"
+                            height="25">
+                            <path
+                                d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="projects-items">
+                    <img class="projects-items-img" src="img/photo-5.jpg" alt="photo" width="370" height="237">
+                    <div class="projects-items-content">
+                        <span class="projects-items-title">Quam Nutamus Farum</span>
+                        <p class="projects-items-sub-title">Graphic Design, Mock-Up</p>
+                    </div>
+                    <button class="projects-items-share">
+                        <svg class="projects-items-share-item" xmlns="http://www.w3.org/2000/svg" width="26"
+                            height="26">
+                            <path
+                                d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z" />
+                        </svg>
+                    </button>
+                    <button class="projects-items-search">
+                        <svg class="projects-items-share-item" xmlns="http://www.w3.org/2000/svg" width="26"
+                            height="25">
+                            <path
+                                d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z" />
+                        </svg>
+                    </button>
+                </div>
+
+                <div class="projects-items">
+                    <img class="projects-items-img" src="img/photo-6.jpg" alt="photo" width="370" height="237">
+                    <div class="projects-items-content">
+                        <span class="projects-items-title">Quam Nutamus Farum</span>
+                        <p class="projects-items-sub-title">Graphic Design, Mock-Up</p>
+                    </div>
+                    <button class="projects-items-share">
+                        <svg class="projects-items-share-item" xmlns="http://www.w3.org/2000/svg" width="26"
+                            height="26">
+                            <path
+                                d="M23.5 11.242l-1.927 1.928-3.187 3.189c-.153.17-.34.324-.511.46a6.24 6.24 0 0 1-6.153.905 6.038 6.038 0 0 1-2.08-1.365l2.642-2.644a2.446 2.446 0 0 0 3.46 0l2.028-2.029L20.857 8.6a2.447 2.447 0 1 0-3.46-3.462l-2.454 2.456a7.068 7.068 0 0 0-4.908-.376l4.72-4.723c2.404-2.405 6.341-2.405 8.744 0 2.42 2.42 2.42 6.343 0 8.748zm-7.654 7.607l-4.618 4.672c-2.403 2.406-6.34 2.406-8.744 0-2.403-2.404-2.403-6.343 0-8.747l5.113-5.118c.068-.067.154-.153.239-.221a6.191 6.191 0 0 1 6.426-1.142c.75.29 1.465.75 2.079 1.363l-2.642 2.645a2.446 2.446 0 0 0-3.46 0l-5.113 5.115a2.447 2.447 0 1 0 3.46 3.463l2.352-2.355c2.011.803 2.557.87 4.908.325z" />
+                        </svg>
+                    </button>
+                    <button class="projects-items-search">
+                        <svg class="projects-items-share-item" xmlns="http://www.w3.org/2000/svg" width="26"
+                            height="25">
+                            <path
+                                d="M17.417 7.847c.318.644.047 1.42-.607 1.734-.185.087-.381.13-.576.13-.487 0-.954-.267-1.182-.728a4.147 4.147 0 0 0-3.748-2.31c-.726 0-1.315-.579-1.315-1.296 0-.714.589-1.295 1.315-1.295 2.62 0 4.964 1.443 6.113 3.765zm8.04 16.325a1.647 1.647 0 0 1-1.164.474 1.65 1.65 0 0 1-1.163-.474L18.795 19.9a11.218 11.218 0 0 1-6.836 2.317C5.793 22.218.777 17.276.777 11.202S5.793.186 11.96.186 23.14 5.128 23.14 11.202c0 2.37-.77 4.562-2.068 6.361l4.383 4.318a1.602 1.602 0 0 1 0 2.29zM11.96 19.627c2.104 0 4.03-.756 5.521-2.003.46-.384.874-.819 1.243-1.288a8.288 8.288 0 0 0 1.786-5.134c0-4.645-3.836-8.424-8.55-8.424-4.715 0-8.551 3.78-8.551 8.424 0 4.645 3.836 8.424 8.55 8.425z" />
+                        </svg>
+                    </button>
+                </div>
+            </div>
+            <button class="projects-items-btn">Load More</button>
+        </section>
+        <section class="video-content">
+            <video class="video-content-video" width="1920" height="705"  poster="img/video-poster.jpg">
+                <source src="video/it.ogv" type='video/ogg; codecs="theora, vorbis"'>
+                <source src="video/it.mp4" type='video/mp4; codecs="avc1.42E01E, mp4a.40.2"'>
+                <source src="video/it.webm" type='video/webm; codecs="vp8, vorbis"'>
+            </video>
+            <div class="overlay">
+                <button class="overlay-btn" >
+                    <svg class="overlay-play" xmlns="http://www.w3.org/2000/svg" 
+                    width="70" height="70" viewBox="0 0 70 70">
+                    <path d="M29.934 51.82a2.06 2.06 0 0 1-2.06-2.06V20.235a2.06 2.06 0 0 1 3.379-1.582l17.714 14.762a2.059 2.059 0 0 1 0 3.165L31.253 51.343a2.06 2.06 0 0 1-1.32.477zm2.06-27.187v20.73l12.437-10.366zm2.943 45.365a34.807 34.807 0 0 1-17.106-4.47 2.06 2.06 0 1 1 2.02-3.59c12.019 6.765 27.231 4.673 36.994-5.093 12.047-12.047 12.047-31.648 0-43.695-12.047-12.049-31.649-12.048-43.695 0-12.046 12.047-12.046 31.648 0 43.695a2.06 2.06 0 0 1-2.913 2.914c-13.653-13.654-13.653-35.869 0-49.523 13.654-13.652 35.867-13.653 49.522 0 13.653 13.654 13.653 35.869 0 49.523C53.033 66.484 44.026 70 34.937 70z"/>
+                    <path d="M29.934 51.82a2.06 2.06 0 0 1-2.06-2.06V20.235a2.06 2.06 0 0 1 3.379-1.582l17.714 14.762a2.059 2.059 0 0 1 0 3.165L31.253 51.343a2.06 2.06 0 0 1-1.32.477zm2.06-27.187v20.73l12.437-10.366zm2.943 45.365a34.807 34.807 0 0 1-17.106-4.47 2.06 2.06 0 1 1 2.02-3.59c12.019 6.765 27.231 4.673 36.994-5.093 12.047-12.047 12.047-31.648 0-43.695-12.047-12.049-31.649-12.048-43.695 0-12.046 12.047-12.046 31.648 0 43.695a2.06 2.06 0 0 1-2.913 2.914c-13.653-13.654-13.653-35.869 0-49.523 13.654-13.652 35.867-13.653 49.522 0 13.653 13.654 13.653 35.869 0 49.523C53.033 66.484 44.026 70 34.937 70z"/>
+                </svg>
+                </svg>
+                </button>
+                <span class="overlay-title">Waxom Video Presentation</span>
+                <p class="overlay-txt">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius, qui sequitur mutationem consuetudium.</p>
+                <span class="overlay-time">03:26</span>
+            </div>
+        </section>
+        <section class="for-mobile">
+            <!--<img class="for-mobile-img" src="img/iphone.jpg" alt="phone" width="423" height="616"> -->
+            <div class="for-mobile-info">
+                <div class="for-mobile-content">
+                    <span class="for-mobile-content-title">Excellent for Mobile Devices.</span>
+                    <p class="for-mobile-content-txt">Qisi enim ad minim veniam, quis nostrud exerci tation ullamcorper
+                        suscipit lobortis nisl ut aliquip ex ea commodo consequat. Investigationes demonstraverunt
+                        lectores legere me lius quod ii legunt saepius claritas. Eodem modo typi, qui nunc nobis
+                        videntur parum clari, fiant sollemnes in futurum.</p>
+                </div>
+                <div class="for-mobile-list">
+                    <svg class="for-mobile-list-item-arrow1" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                        <path d="M20.998 10.5c0 5.798-4.7 10.498-10.498 10.498C4.702 20.998 0 16.298 0 10.499.001 4.701 4.701.001 10.5.001s10.498 4.7 10.498 10.498zm-7.004 0a.692.692 0 0 0-.205-.498l-4.54-4.54a.7.7 0 1 0-.989.99l4.047 4.047-4.047 4.046a.7.7 0 0 0 .99.99l4.539-4.538a.698.698 0 0 0 .205-.498z"/><path d="M20.998 10.5c0 5.798-4.7 10.498-10.498 10.498C4.702 20.998 0 16.298 0 10.499.001 4.701 4.701.001 10.5.001s10.498 4.7 10.498 10.498zm-7.004 0a.692.692 0 0 0-.205-.498l-4.54-4.54a.7.7 0 1 0-.989.99l4.047 4.047-4.047 4.046a.7.7 0 0 0 .99.99l4.539-4.538a.698.698 0 0 0 .205-.498z"/>
+                    </svg>
+                    <li class="for-mobile-list-item">Nam liber tempor cum soluta nobis eleifend option;</li>
+                    <svg class="for-mobile-list-item-arrow2" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                        <path d="M20.998 10.5c0 5.798-4.7 10.498-10.498 10.498C4.702 20.998 0 16.298 0 10.499.001 4.701 4.701.001 10.5.001s10.498 4.7 10.498 10.498zm-7.004 0a.692.692 0 0 0-.205-.498l-4.54-4.54a.7.7 0 1 0-.989.99l4.047 4.047-4.047 4.046a.7.7 0 0 0 .99.99l4.539-4.538a.698.698 0 0 0 .205-.498z"/><path d="M20.998 10.5c0 5.798-4.7 10.498-10.498 10.498C4.702 20.998 0 16.298 0 10.499.001 4.701 4.701.001 10.5.001s10.498 4.7 10.498 10.498zm-7.004 0a.692.692 0 0 0-.205-.498l-4.54-4.54a.7.7 0 1 0-.989.99l4.047 4.047-4.047 4.046a.7.7 0 0 0 .99.99l4.539-4.538a.698.698 0 0 0 .205-.498z"/>
+                    </svg>
+                    <li class="for-mobile-list-item">Option congue nihil imperdiet doming id quod mazim placerat facer;
+                    </li>
+                    <svg class="for-mobile-list-item-arrow3" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                        <path d="M20.998 10.5c0 5.798-4.7 10.498-10.498 10.498C4.702 20.998 0 16.298 0 10.499.001 4.701 4.701.001 10.5.001s10.498 4.7 10.498 10.498zm-7.004 0a.692.692 0 0 0-.205-.498l-4.54-4.54a.7.7 0 1 0-.989.99l4.047 4.047-4.047 4.046a.7.7 0 0 0 .99.99l4.539-4.538a.698.698 0 0 0 .205-.498z"/><path d="M20.998 10.5c0 5.798-4.7 10.498-10.498 10.498C4.702 20.998 0 16.298 0 10.499.001 4.701 4.701.001 10.5.001s10.498 4.7 10.498 10.498zm-7.004 0a.692.692 0 0 0-.205-.498l-4.54-4.54a.7.7 0 1 0-.989.99l4.047 4.047-4.047 4.046a.7.7 0 0 0 .99.99l4.539-4.538a.698.698 0 0 0 .205-.498z"/>
+                    </svg>
+                    <li class="for-mobile-list-item">Eodem modo typi, qui nunc nobis videntur parum futurum;</li>
+                    <svg class="for-mobile-list-item-arrow4" xmlns="http://www.w3.org/2000/svg" width="21" height="21" viewBox="0 0 21 21">
+                        <path d="M20.998 10.5c0 5.798-4.7 10.498-10.498 10.498C4.702 20.998 0 16.298 0 10.499.001 4.701 4.701.001 10.5.001s10.498 4.7 10.498 10.498zm-7.004 0a.692.692 0 0 0-.205-.498l-4.54-4.54a.7.7 0 1 0-.989.99l4.047 4.047-4.047 4.046a.7.7 0 0 0 .99.99l4.539-4.538a.698.698 0 0 0 .205-.498z"/><path d="M20.998 10.5c0 5.798-4.7 10.498-10.498 10.498C4.702 20.998 0 16.298 0 10.499.001 4.701 4.701.001 10.5.001s10.498 4.7 10.498 10.498zm-7.004 0a.692.692 0 0 0-.205-.498l-4.54-4.54a.7.7 0 1 0-.989.99l4.047 4.047-4.047 4.046a.7.7 0 0 0 .99.99l4.539-4.538a.698.698 0 0 0 .205-.498z"/>
+                    </svg>
+                    <li class="for-mobile-list-item">Investigationes demonstraverunt lectores</li>
+                </div>
+            </div>
+        </section>
+        <section class="info">
+            <div class="info-content">
+                <svg class="info-content-item" xmlns="http://www.w3.org/2000/svg" width="44" height="44">
+                    <path
+                        d="M9.625 17.703c-.001-3.295 1.035-6.405 2.918-8.759 1.955-2.442 4.581-3.788 7.394-3.788 5.688 0 10.313 5.628 10.313 12.547 0 6.918-4.625 12.547-10.313 12.547-5.687 0-10.312-5.628-10.312-12.547zm2.747 0c.003 5.403 3.396 9.797 7.565 9.797 4.17 0 7.563-4.394 7.563-9.797 0-5.403-3.393-9.797-7.563-9.797-4.172 0-7.565 4.394-7.565 9.797zm27.503 22.45A3.854 3.854 0 0 1 36.024 44H3.848A3.852 3.852 0 0 1 0 40.153c0-6.219 5.057-11.278 11.274-11.278a1.374 1.374 0 1 1 0 2.75c-4.7 0-8.524 3.825-8.524 8.528a1.1 1.1 0 0 0 1.098 1.097h32.176c.607 0 1.101-.495 1.101-1.097 0-4.703-3.826-8.528-8.527-8.528a1.374 1.374 0 1 1 0-2.75c6.217 0 11.277 5.06 11.277 11.278zM19.06 3.144a1.375 1.375 0 0 1 .484-1.883A8.883 8.883 0 0 1 24.062 0c5.688 0 10.313 5.629 10.313 12.547 0 1.18-.134 2.342-.393 3.457a1.376 1.376 0 0 1-1.653 1.023 1.373 1.373 0 0 1-1.024-1.652c.213-.909.32-1.859.32-2.828 0-5.401-3.393-9.796-7.563-9.796-1.086 0-2.135.294-3.12.878-.65.386-1.495.169-1.882-.485zM44 34.74c0 .548-.112 1.074-.33 1.568a1.379 1.379 0 0 1-1.816.698 1.377 1.377 0 0 1-.698-1.815 1.06 1.06 0 0 0 .094-.448c0-4.7-3.55-8.618-8.25-8.618a1.374 1.374 0 1 1 0-2.75c6.217 0 11 5.152 11 11.365z" />
+                </svg>
+                <span class="info-content-number">3587</span>
+                <span class="info-content-subtitle">Satisfied Clients</span>
+            </div>
+
+            <div class="info-content">
+                <svg class="info-content-item" xmlns="http://www.w3.org/2000/svg" width="48" height="44">
+                    <path
+                        d="M46.043 42.749c0 .69-.552 1.25-1.234 1.25H1.234C.552 44 0 43.44 0 42.75c0-.691.552-1.251 1.234-1.251h43.575c.682 0 1.234.56 1.234 1.25zM19.586 16.396c.054-2.162.818-4.33 2.096-5.946 1.945-2.461 1.988-6.486.087-8.284a1.263 1.263 0 0 1-.06-1.768 1.223 1.223 0 0 1 1.744-.061c3.165 2.994 2.622 8.557.155 11.677-1.818 2.3-2.27 6.368-.155 8.37.498.471.525 1.263.06 1.768a1.222 1.222 0 0 1-1.744.06c-1.467-1.387-2.243-3.453-2.183-5.816zM48 19.614v2.4c0 3.44-2.76 6.24-6.154 6.24H39.09c-1.87 5.27-6.85 9.05-12.686 9.05H19.64c-7.431 0-13.476-6.129-13.476-13.662v-12.41c0-.691.552-1.251 1.234-1.251h7.915c1.607-2.476 1.535-6.127-.25-7.815a1.263 1.263 0 0 1-.06-1.768 1.222 1.222 0 0 1 1.745-.06c3.164 2.993 2.621 8.556.155 11.676-1.819 2.3-2.272 6.369-.155 8.37.498.471.525 1.263.06 1.768a1.223 1.223 0 0 1-1.744.061c-1.468-1.388-2.243-3.454-2.184-5.817.034-1.347.343-2.696.881-3.913H8.63v11.16c0 6.153 4.939 11.159 11.009 11.159h6.766c6.07 0 11.008-5.006 11.008-11.16v-11.16h-9.278c-.682 0-1.234-.56-1.234-1.25 0-.691.552-1.251 1.234-1.251h10.512c.682 0 1.234.56 1.234 1.25v2.144h1.965c3.393 0 6.154 2.799 6.154 6.24zm-2.468 0c0-2.06-1.654-3.737-3.686-3.737H39.88v9.874h1.965c2.032 0 3.686-1.676 3.686-3.737z" />
+                </svg>
+                <span class="info-content-number">207</span>
+                <span class="info-content-subtitle">Cups of coffee</span>
+            </div>
+
+            <div class="info-content">
+                <svg class="info-content-item" xmlns="http://www.w3.org/2000/svg" width="44" height="44">
+                    <path
+                        d="M30.248 24.748c0 .76-.616 1.375-1.375 1.375H15.126a1.375 1.375 0 0 1 0-2.75h13.747c.76 0 1.375.617 1.375 1.375zm2.749-8.247c0 .758-.615 1.374-1.375 1.374H12.376a1.375 1.375 0 0 1 0-2.75h19.246c.76 0 1.375.616 1.375 1.376zm10.998 2.749c0 10.63-9.847 19.246-21.996 19.246-1.406 0-2.778-.128-4.112-.347l-9.635 5.846v-9.734C3.227 30.733.003 25.325.003 19.25.003 8.62 9.853.003 22 .003c12.15 0 21.996 8.617 21.996 19.247zm-2.75 0c0-9.11-8.616-16.497-19.246-16.497-10.63 0-19.246 7.386-19.246 16.497 0 5.59 3.252 10.522 8.214 13.506l-.087 6.377 6.473-3.89c1.49.317 3.04.504 4.646.504 10.63 0 19.247-7.387 19.247-16.497z" />
+                </svg>
+                <span class="info-content-number">2500</span>
+                <span class="info-content-subtitle">Blog posts</span>
+            </div>
+
+            <div class="info-content">
+                <svg class="info-content-item" xmlns="http://www.w3.org/2000/svg" width="44" height="44">
+                    <path
+                        d="M44 13.75c0 12.445-8.003 23.702-21.406 30.113a1.368 1.368 0 0 1-1.188 0C8.002 37.453 0 26.195 0 13.75 0 6.166 6.168 0 13.75 0c2.985 0 5.873.975 8.25 2.764.063-.046.129-.087.191-.132.206-.149.413-.296.628-.434.12-.078.244-.148.365-.222.223-.133.443-.267.672-.388.084-.046.174-.085.26-.127.435-.216.884-.41 1.343-.582.175-.066.346-.135.524-.193.194-.063.392-.117.59-.172a13.665 13.665 0 0 1 1.182-.276c.255-.047.51-.086.768-.117.153-.02.305-.043.46-.057.42-.038.843-.064 1.267-.064C37.831 0 44 6.166 44 13.75zm-2.75 0c0-6.066-4.935-11-11-11-.357 0-.712.02-1.06.053-.16.017-.315.043-.47.066-.183.027-.367.051-.549.084-.201.04-.396.09-.593.14a9.836 9.836 0 0 0-.395.103 10.8 10.8 0 0 0-.646.212c-.103.037-.205.073-.305.113-.227.09-.45.189-.67.293a10.392 10.392 0 0 0-1.11.607c-.23.14-.454.294-.673.453-.05.038-.1.077-.152.113-.222.17-.443.348-.654.536-2.277 2.016-3.723 4.953-3.723 8.227a1.374 1.374 0 1 1-2.75 0c0-3.475 1.305-6.643 3.44-9.067a10.945 10.945 0 0 0-6.19-1.933c-6.065 0-11 4.934-11 11 0 11.177 7.184 21.358 19.25 27.347 12.066-5.99 19.25-16.17 19.25-27.347zm-2.75 0a1.375 1.375 0 0 1-2.75 0c0-3.034-2.467-5.5-5.5-5.5a1.375 1.375 0 0 1 0-2.75c4.55 0 8.25 3.7 8.25 8.25z" />
+                </svg>
+                <span class="info-content-number">873</span>
+                <span class="info-content-subtitle">Likes</span>
+            </div>
+
+            <div class="info-content">
+                <svg class="info-content-item" xmlns="http://www.w3.org/2000/svg" width="54" height="44">
+                    <path
+                        d="M53.998 42.304a1.69 1.69 0 0 1-1.688 1.691H1.69a1.69 1.69 0 0 1-1.687-1.691 1.69 1.69 0 0 1 1.688-1.693h50.62a1.69 1.69 0 0 1 1.687 1.693zm0-8.46v1.691a1.69 1.69 0 0 1-1.688 1.692H1.69a1.69 1.69 0 0 1-1.687-1.692v-1.692c0-14.38 11.19-26.193 25.31-27.072-.01-.128 0-3.384 0-3.384H21.94a1.69 1.69 0 0 1-1.688-1.692A1.69 1.69 0 0 1 21.94.003h10.124a1.69 1.69 0 0 1 1.687 1.692 1.69 1.69 0 0 1-1.687 1.692h-3.375v3.384c14.12.878 25.31 12.692 25.31 27.072zm-3.375 0c0-13.083-10.575-23.689-23.622-23.689S3.378 20.761 3.378 33.843z" />
+                </svg>
+                <span class="info-content-number">900</span>
+                <span class="info-content-subtitle">We launched</span>
+            </div>
+        </section>
+        <section class="posts">
+            <div class="posts-header">
+            <span class="posts-title">Recent Posts.</span>
+            <p class="posts-txt">Investigationes demonstraverunt lectores legere me lius quod ii legunt saepius.
+                Claritas est etiam processus dynamicus, qui sequitur mutationem consuetudium.</p>
+            </div>
+            <div class="posts-block">
+                <article class="posts-content">
+                 <!--   <div  class="posts-content-date">
+                        <span class="posts-content-date1">30</span>
+                        <span class="posts-content-date2">Sep.</span>
+                    </div> -->
+                    <img class="posts-content-img" src="img/posts-1.jpg" alt="photo-posts" width="370" height="220">
+                    <span class="posts-content-title">Lorem ipsum dolor sit amet</span>
+                    <p class="posts-content-txt">Claritas est etiam processus dynamicus, qui sequitur mutationem
+                        consuetudium.</p>
+                    <a class="posts-content-link" href="#">Read More
+                        <svg class="posts-content-link-arrow" xmlns="http://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5 8">
+                            <path d="M.951 7.815l3.834-3.467a.462.462 0 0 0 0-.7l-.02-.011L.95.177a.595.595 0 0 0-.777 0L.17.185a.47.47 0 0 0-.167.354v6.918c0 .141.068.268.173.358l-.002.001a.594.594 0 0 0 .777 0z"/>
+                            <path d="M.951 7.815l3.834-3.467a.462.462 0 0 0 0-.7l-.02-.011L.95.177a.595.595 0 0 0-.777 0L.17.185a.47.47 0 0 0-.167.354v6.918c0 .141.068.268.173.358l-.002.001a.594.594 0 0 0 .777 0z"/>
+                        </svg>
+                    </a>
+                </article>
+                <article class="posts-content">
+                    <img class="posts-content-img" src="img/posts-2.jpg" alt="photo-posts" width="370" height="220">
+                    <span class="posts-content-title">Lorem ipsum dolor sit amet</span>
+                    <p class="posts-content-txt">Claritas est etiam processus dynamicus, qui sequitur mutationem
+                        consuetudium.</p>
+                    <a class="posts-content-link" href="#">Read More
+                        <svg class="posts-content-link-arrow" xmlns="http://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5 8">
+                            <path d="M.951 7.815l3.834-3.467a.462.462 0 0 0 0-.7l-.02-.011L.95.177a.595.595 0 0 0-.777 0L.17.185a.47.47 0 0 0-.167.354v6.918c0 .141.068.268.173.358l-.002.001a.594.594 0 0 0 .777 0z"/>
+                            <path d="M.951 7.815l3.834-3.467a.462.462 0 0 0 0-.7l-.02-.011L.95.177a.595.595 0 0 0-.777 0L.17.185a.47.47 0 0 0-.167.354v6.918c0 .141.068.268.173.358l-.002.001a.594.594 0 0 0 .777 0z"/>
+                        </svg>
+                    </a>
+                </article>
+                <article class="posts-content">
+                    <img class="posts-content-img" src="img/posts-3.jpg" alt="photo-posts" width="370" height="220">
+                    <span class="posts-content-title">Lorem ipsum dolor sit amet</span>
+                    <p class="posts-content-txt">Claritas est etiam processus dynamicus, qui sequitur mutationem
+                        consuetudium.</p>
+                    <a class="posts-content-link" href="#">Read More
+                        <svg class="posts-content-link-arrow" xmlns="http://www.w3.org/2000/svg" width="5" height="8" viewBox="0 0 5 8">
+                            <path d="M.951 7.815l3.834-3.467a.462.462 0 0 0 0-.7l-.02-.011L.95.177a.595.595 0 0 0-.777 0L.17.185a.47.47 0 0 0-.167.354v6.918c0 .141.068.268.173.358l-.002.001a.594.594 0 0 0 .777 0z"/>
+                            <path d="M.951 7.815l3.834-3.467a.462.462 0 0 0 0-.7l-.02-.011L.95.177a.595.595 0 0 0-.777 0L.17.185a.47.47 0 0 0-.167.354v6.918c0 .141.068.268.173.358l-.002.001a.594.594 0 0 0 .777 0z"/>
+                        </svg>
+                    </a>
+                </article>
+            </div>
+            <div class="posts-pagination">
+                <a class="posts-pagination-link" href="#">
+                    <svg class="posts-pagination-arrow" xmlns="http://www.w3.org/2000/svg" 
+                    width="22" height="22" viewBox="0 0 22 22">
+                        <path d="M7.583 10.434l4.772-4.773a.737.737 0 0 1 1.04 1.041l-4.254 4.255 4.254 4.254a.736.736 0 0 1-1.04 1.04L7.583 11.48a.73.73 0 0 1-.216-.523c0-.19.07-.378.216-.523zM10.987.026c6.066 0 10.985 4.917 10.985 10.985 0 6.065-4.919 10.984-10.985 10.984S.003 17.076.003 11.01C.003 4.944 4.921.027 10.987.027zm0 20.497c5.245 0 9.514-4.27 9.514-9.513 0-5.245-4.269-9.513-9.514-9.513-5.244 0-9.512 4.268-9.512 9.513 0 5.243 4.268 9.513 9.512 9.513z"/>
+                        <path d="M7.583 10.434l4.772-4.773a.737.737 0 0 1 1.04 1.041l-4.254 4.255 4.254 4.254a.736.736 0 0 1-1.04 1.04L7.583 11.48a.73.73 0 0 1-.216-.523c0-.19.07-.378.216-.523zM10.987.026c6.066 0 10.985 4.917 10.985 10.985 0 6.065-4.919 10.984-10.985 10.984S.003 17.076.003 11.01C.003 4.944 4.921.027 10.987.027zm0 20.497c5.245 0 9.514-4.27 9.514-9.513 0-5.245-4.269-9.513-9.514-9.513-5.244 0-9.512 4.268-9.512 9.513 0 5.243 4.268 9.513 9.512 9.513z"/>
+                    </svg>
+                </a>
+                <a class="posts-pagination-link" href="#">
+                    <svg class="posts-pagination-arrow" xmlns="http://www.w3.org/2000/svg" 
+                    width="22" height="22" viewBox="0 0 22 22">
+                        <path d="M14.633 10.957a.73.73 0 0 1-.216.523L9.645 16.25a.736.736 0 0 1-1.04-1.04l4.254-4.254-4.255-4.255a.737.737 0 0 1 1.04-1.041l4.773 4.773a.732.732 0 0 1 .216.523zm7.364.053c0 6.066-4.918 10.985-10.985 10.985C4.946 21.995.028 17.076.028 11.01.028 4.944 4.946.027 11.012.027c6.067 0 10.985 4.917 10.985 10.985zm-1.472 0c0-5.245-4.268-9.513-9.513-9.513-5.244 0-9.513 4.268-9.513 9.514 0 5.242 4.269 9.512 9.513 9.512 5.245 0 9.513-4.27 9.513-9.512z"/>
+                        <path d="M14.633 10.957a.73.73 0 0 1-.216.523L9.645 16.25a.736.736 0 0 1-1.04-1.04l4.254-4.254-4.255-4.255a.737.737 0 0 1 1.04-1.041l4.773 4.773a.732.732 0 0 1 .216.523zm7.364.053c0 6.066-4.918 10.985-10.985 10.985C4.946 21.995.028 17.076.028 11.01.028 4.944 4.946.027 11.012.027c6.067 0 10.985 4.917 10.985 10.985zm-1.472 0c0-5.245-4.268-9.513-9.513-9.513-5.244 0-9.513 4.268-9.513 9.514 0 5.242 4.269 9.512 9.513 9.512 5.245 0 9.513-4.27 9.513-9.512z"/>
+                    </svg>
+                </a>
+            </div>
+        </section>
+        <section class="brand">
+            <div class="brightness-brand">
+                <a class="brand-link" href="#"><img class="brand-img" src="img/brand-1.png" alt="photo-brand"
+                        width="210" height="127"></a>
+                <a class="brand-link" href="#"><img class="brand-img" src="img/brand-2.png" alt="photo-brand"
+                        width="210" height="210"></a>
+                <a class="brand-link" href="#"><img class="brand-img" src="img/brand-3.png" alt="photo-brand"
+                        width="210" height="130"></a>
+                <a class="brand-link" href="#"><img class="brand-img" src="img/brand-4.png" alt="photo-brand"
+                        width="210" height="164"></a>
+            </div>
+        </section>
+        <section class="contact">
+            <div class="contact-block-1">
+                <a class="contact-block-1-logo" href="#">
+                    <svg class="contact-logo" xmlns="http://www.w3.org/2000/svg" width="64" height="56">
+                        <path
+                            d="M31.854 19.905L26.6 10.713h10.508zm-1.314.766H20.032l5.254-9.191zm2.628 0l5.254-9.191 5.254 9.19zm10.508 1.53l-5.254 9.188-5.254-9.188zm-13.136 0l-5.254 9.188-5.254-9.188zm-11.822.766l5.253 9.187H13.465zm21.02 9.187l5.252-9.187 5.253 9.187zm-2.63-22.97H26.6l5.254-9.19zm2.63 24.502h10.505l-5.253 9.188zm-26.273 0H23.97l-5.253 9.188zm-1.314.765l5.253 9.19H6.897zm34.152 9.19l5.254-9.19 5.254 9.19zm10.508 1.531l-5.254 9.187-5.254-9.187zm-13.135 0l-5.254 9.187-5.254-9.187zm-36.779 0h10.507L12.15 54.36zm-1.315.767l5.254 9.189H.33zm26.272 0l5.254 9.189H26.6zm13.136 0l5.253 9.189H39.738zm18.387 9.189H52.873l5.252-9.189z" />
+                    </svg>
+                    <span class="contact-block-1-title">Waxom</span>
+                </a>
+                <p class="contact-block-1-txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam
+                    nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim
+                    veniam, quis nostrud exerci suscipit lobortis claritatem.</p>
+                <a class="contact-block-1-link" href="#">Read More
+                <svg class="contact-block-1-link-arrow" xmlns="http://www.w3.org/2000/svg" 
+                width="5" height="8" viewBox="0 0 5 8">
+                    <path d="M.951 7.815l3.835-3.467a.462.462 0 0 0 0-.7l-.021-.011L.95.177a.595.595 0 0 0-.777 0L.17.185a.469.469 0 0 0-.167.354v6.917c0 .142.068.269.173.36H.174a.594.594 0 0 0 .777 0z"/>
+                    <path d="M.951 7.815l3.835-3.467a.462.462 0 0 0 0-.7l-.021-.011L.95.177a.595.595 0 0 0-.777 0L.17.185a.469.469 0 0 0-.167.354v6.917c0 .142.068.269.173.36H.174a.594.594 0 0 0 .777 0z"/>
+                </svg>
+            </a>
+            
+            </div>
+            <div class="contact-block-2">
+                <span class="contact-block-2-title">Recent Posts</span>
+                <span class="contact-block-2-subtitle">September 08, 2015</span>
+                <p class="contact-block-2-txt">Lorem ipsum dolor sit amet, consectetuer adipiscing elit</p>
+                <span class="contact-block-2-subtitle2">September 08, 2015</span>
+                <p class="contact-block-2-txt2">Diam nonummy nibh euismod tincidunt ut laoreet dolore magna</p>
+                <span class="contact-block-2-subtitle3">September 08, 2015</span>
+                <p class="contact-block-2-txt3">Claritas est etiam processus dynamicus, qui sequitur mutationem per
+                    seacula quarta decima</p>
+            </div>
+            <div class="contact-block-3">
+                <span class="contact-block-3-title">Our Twitter</span>
+                <p class="contact-block-3-txt"><a class="contact-block-3-link" href="#">@waxom</a> Cum soluta nobis
+                    eleifend option congue nihil imperdiet doming</p>
+                <span class="contact-block-3-subtitle">3 mins ago</span>
+                <p class="contact-block-3-txt">Mirum est <a class="contact-block-3-link" href="#">#envato</a> notare
+                    quam littera gothica, quam nunc putamus parum anteposuerit litterarum</p>
+                <span class="contact-block-3-subtitle">5 hours ago</span>
+                <p class="contact-block-3-txt">Soluta nobis option <a class="contact-block-3-link2"
+                        href="#">bit.ly/1Hniso7</a></p>
+                <span class="contact-block-3-subtitle2">20 days ago</span>
+            </div>
+            <div class="contact-block-4">
+                <span class="contact-block-4-title">Dribbble Widget</span>
+                <a class="contact-block-4-title-link" href="#"> <img src="img/photo-contact1.jpg" alt="photo-contact"
+                        width="130" height="98"></a>
+                <a class="contact-block-4-title-link" href="#"> <img src="img/photo-contact2.jpg" alt="photo-contact"
+                        width="130" height="98"></a>
+                <a class="contact-block-4-title-link" href="#"> <img src="img/photo-contact3.jpg" alt="photo-contact"
+                        width="130" height="98"></a>
+                <a class="contact-block-4-title-link" href="#"> <img src="img/photo-contact4.jpg" alt="photo-contact"
+                        width="130" height="98"></a>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="footer-block1">
+                <span class="footer-txt">Copyright &copy; 2015</span> <span class="footer-waxom">Waxom</span> <a
+                    class="footer-link" href="#">Privacy Policy</a> <a class="footer-link" href="#">FAQ</a> <a
+                    class="footer-link" href="#">Support</a>
+            </div>
+            <div class="footer-block2">
+                <span class="footer-txt">Designed by </span> <span class="footer-txt2">ThemeFire</span> <span class="footer-txt">Only on</span> <span class="footer-txt2">Envato Market</span>
+            </div>
+        </footer>
+
+    </div>
+</body>
+
+</html>
